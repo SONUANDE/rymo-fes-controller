@@ -1,0 +1,22 @@
+# Original project files contain unreviewed company and personal material.
+/source-materials/
+
+# Nordic SDK / embedded build output
+**/build/
+**/Output/
+*.o
+*.a
+*.elf
+*.hex
+*.map
+*.log
+
+# IDE and local configuration
+.vscode/
+.settings/
+*.emProject.user
+
+# Python generated files and local settings
+__pycache__/
+*.py[cod]
+.env
